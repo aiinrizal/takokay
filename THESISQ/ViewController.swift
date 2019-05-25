@@ -17,7 +17,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     @IBOutlet weak var collectionView: GeminiCollectionView!
     
     
-    let photos = ["01", "02", "03", "04","05"]
+    let photos = ["003", "004", "005", "006","007", "008" , "009" , "010" , "011" ,"012" , "013" ]
     
 
     override func viewDidLoad() {
