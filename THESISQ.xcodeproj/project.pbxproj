@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E88653701E2E56C7249D545 /* Pods_THESISQUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D189EAF6AE67231C452DA88F /* Pods_THESISQUITests.framework */; };
+		70B14CCC228C4DB9001A480F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14CCB228C4DB9001A480F /* AppDelegate.swift */; };
+		70B14CCE228C4DB9001A480F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14CCD228C4DB9001A480F /* ViewController.swift */; };
+		70B14CD1228C4DB9001A480F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B14CCF228C4DB9001A480F /* Main.storyboard */; };
+		70B14CD3228C4DBC001A480F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B14CD2228C4DBC001A480F /* Assets.xcassets */; };
+		70B14CD6228C4DBC001A480F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B14CD4228C4DBC001A480F /* LaunchScreen.storyboard */; };
+		70B14CE1228C4DBC001A480F /* THESISQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14CE0228C4DBC001A480F /* THESISQTests.swift */; };
+		70B14CEC228C4DBC001A480F /* THESISQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14CEB228C4DBC001A480F /* THESISQUITests.swift */; };
+		70C6DF3A2293D9E900F55796 /* admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C6DF392293D9E900F55796 /* admin.storyboard */; };
+		70F012B22296726400A1CC91 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F012B12296726400A1CC91 /* MyCell.swift */; };
+		CDA4A6F0A242E952CBC06707 /* Pods_THESISQTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8416ABB94B476B7B7147BDFE /* Pods_THESISQTests.framework */; };
+		CE7F610F5600234294A242BE /* Pods_THESISQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817B64E23995690A1DDA571 /* Pods_THESISQ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B14CDD228C4DBC001A480F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B14CC0228C4DB9001A480F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B14CC7228C4DB9001A480F;
+			remoteInfo = THESISQ;
+		};
+		70B14CE8228C4DBC001A480F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B14CC0228C4DB9001A480F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B14CC7228C4DB9001A480F;
+			remoteInfo = THESISQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		277D42815A99021737BAF8CD /* Pods-THESISQTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THESISQTests.debug.xcconfig"; path = "Target Support Files/Pods-THESISQTests/Pods-THESISQTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2811B877091847CD2C8311B9 /* Pods-THESISQUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THESISQUITests.release.xcconfig"; path = "Target Support Files/Pods-THESISQUITests/Pods-THESISQUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B281FB47C1D2A8F0EAC6B67 /* Pods-THESISQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THESISQ.debug.xcconfig"; path = "Target Support Files/Pods-THESISQ/Pods-THESISQ.debug.xcconfig"; sourceTree = "<group>"; };
+		316B6F19AE7C432230677C50 /* Pods-THESISQUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THESISQUITests.debug.xcconfig"; path = "Target Support Files/Pods-THESISQUITests/Pods-THESISQUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70B14CC8228C4DB9001A480F /* THESISQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THESISQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B14CCB228C4DB9001A480F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70B14CCD228C4DB9001A480F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70B14CD0228C4DB9001A480F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70B14CD2228C4DBC001A480F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B14CD5228C4DBC001A480F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70B14CD7228C4DBC001A480F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B14CDC228C4DBC001A480F /* THESISQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THESISQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B14CE0228C4DBC001A480F /* THESISQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THESISQTests.swift; sourceTree = "<group>"; };
+		70B14CE2228C4DBC001A480F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B14CE7228C4DBC001A480F /* THESISQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THESISQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B14CEB228C4DBC001A480F /* THESISQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THESISQUITests.swift; sourceTree = "<group>"; };
+		70B14CED228C4DBC001A480F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C6DF392293D9E900F55796 /* admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = admin.storyboard; sourceTree = "<group>"; };
+		70F012B12296726400A1CC91 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		8416ABB94B476B7B7147BDFE /* Pods_THESISQTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THESISQTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CC0985768003CDACAEFC38 /* Pods-THESISQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THESISQ.release.xcconfig"; path = "Target Support Files/Pods-THESISQ/Pods-THESISQ.release.xcconfig"; sourceTree = "<group>"; };
+		A817B64E23995690A1DDA571 /* Pods_THESISQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THESISQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9377D1A54B39E4984E66F75 /* Pods-THESISQTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THESISQTests.release.xcconfig"; path = "Target Support Files/Pods-THESISQTests/Pods-THESISQTests.release.xcconfig"; sourceTree = "<group>"; };
+		D189EAF6AE67231C452DA88F /* Pods_THESISQUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THESISQUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B14CC5228C4DB9001A480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7F610F5600234294A242BE /* Pods_THESISQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14CD9228C4DBC001A480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA4A6F0A242E952CBC06707 /* Pods_THESISQTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14CE4228C4DBC001A480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E88653701E2E56C7249D545 /* Pods_THESISQUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667DD31DEC1688BA802FB0E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B281FB47C1D2A8F0EAC6B67 /* Pods-THESISQ.debug.xcconfig */,
+				99CC0985768003CDACAEFC38 /* Pods-THESISQ.release.xcconfig */,
+				277D42815A99021737BAF8CD /* Pods-THESISQTests.debug.xcconfig */,
+				A9377D1A54B39E4984E66F75 /* Pods-THESISQTests.release.xcconfig */,
+				316B6F19AE7C432230677C50 /* Pods-THESISQUITests.debug.xcconfig */,
+				2811B877091847CD2C8311B9 /* Pods-THESISQUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70B14CBF228C4DB9001A480F = {
+			isa = PBXGroup;
+			children = (
+				70B14CCA228C4DB9001A480F /* THESISQ */,
+				70B14CDF228C4DBC001A480F /* THESISQTests */,
+				70B14CEA228C4DBC001A480F /* THESISQUITests */,
+				70B14CC9228C4DB9001A480F /* Products */,
+				667DD31DEC1688BA802FB0E3 /* Pods */,
+				A57B59F8E907AEE871E3E858 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70B14CC9228C4DB9001A480F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B14CC8228C4DB9001A480F /* THESISQ.app */,
+				70B14CDC228C4DBC001A480F /* THESISQTests.xctest */,
+				70B14CE7228C4DBC001A480F /* THESISQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B14CCA228C4DB9001A480F /* THESISQ */ = {
+			isa = PBXGroup;
+			children = (
+				70B14CCB228C4DB9001A480F /* AppDelegate.swift */,
+				70B14CCD228C4DB9001A480F /* ViewController.swift */,
+				70B14CCF228C4DB9001A480F /* Main.storyboard */,
+				70C6DF392293D9E900F55796 /* admin.storyboard */,
+				70B14CD2228C4DBC001A480F /* Assets.xcassets */,
+				70B14CD4228C4DBC001A480F /* LaunchScreen.storyboard */,
+				70B14CD7228C4DBC001A480F /* Info.plist */,
+				70F012B12296726400A1CC91 /* MyCell.swift */,
+			);
+			path = THESISQ;
+			sourceTree = "<group>";
+		};
+		70B14CDF228C4DBC001A480F /* THESISQTests */ = {
+			isa = PBXGroup;
+			children = (
+				70B14CE0228C4DBC001A480F /* THESISQTests.swift */,
+				70B14CE2228C4DBC001A480F /* Info.plist */,
+			);
+			path = THESISQTests;
+			sourceTree = "<group>";
+		};
+		70B14CEA228C4DBC001A480F /* THESISQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70B14CEB228C4DBC001A480F /* THESISQUITests.swift */,
+				70B14CED228C4DBC001A480F /* Info.plist */,
+			);
+			path = THESISQUITests;
+			sourceTree = "<group>";
+		};
+		A57B59F8E907AEE871E3E858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A817B64E23995690A1DDA571 /* Pods_THESISQ.framework */,
+				8416ABB94B476B7B7147BDFE /* Pods_THESISQTests.framework */,
+				D189EAF6AE67231C452DA88F /* Pods_THESISQUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70B14CC7228C4DB9001A480F /* THESISQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B14CF0228C4DBC001A480F /* Build configuration list for PBXNativeTarget "THESISQ" */;
+			buildPhases = (
+				0B9933968622BC0BC25E5726 /* [CP] Check Pods Manifest.lock */,
+				70B14CC4228C4DB9001A480F /* Sources */,
+				70B14CC5228C4DB9001A480F /* Frameworks */,
+				70B14CC6228C4DB9001A480F /* Resources */,
+				886F551F4C469BA0C1823143 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THESISQ;
+			productName = THESISQ;
+			productReference = 70B14CC8228C4DB9001A480F /* THESISQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70B14CDB228C4DBC001A480F /* THESISQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B14CF3228C4DBC001A480F /* Build configuration list for PBXNativeTarget "THESISQTests" */;
+			buildPhases = (
+				6B18032FF2139B31EA26B5E4 /* [CP] Check Pods Manifest.lock */,
+				70B14CD8228C4DBC001A480F /* Sources */,
+				70B14CD9228C4DBC001A480F /* Frameworks */,
+				70B14CDA228C4DBC001A480F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B14CDE228C4DBC001A480F /* PBXTargetDependency */,
+			);
+			name = THESISQTests;
+			productName = THESISQTests;
+			productReference = 70B14CDC228C4DBC001A480F /* THESISQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70B14CE6228C4DBC001A480F /* THESISQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B14CF6228C4DBC001A480F /* Build configuration list for PBXNativeTarget "THESISQUITests" */;
+			buildPhases = (
+				E15E682709436D906A333751 /* [CP] Check Pods Manifest.lock */,
+				70B14CE3228C4DBC001A480F /* Sources */,
+				70B14CE4228C4DBC001A480F /* Frameworks */,
+				70B14CE5228C4DBC001A480F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B14CE9228C4DBC001A480F /* PBXTargetDependency */,
+			);
+			name = THESISQUITests;
+			productName = THESISQUITests;
+			productReference = 70B14CE7228C4DBC001A480F /* THESISQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B14CC0228C4DB9001A480F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = RapidThesisQ;
+				TargetAttributes = {
+					70B14CC7228C4DB9001A480F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					70B14CDB228C4DBC001A480F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 70B14CC7228C4DB9001A480F;
+					};
+					70B14CE6228C4DBC001A480F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 70B14CC7228C4DB9001A480F;
+					};
+				};
+			};
+			buildConfigurationList = 70B14CC3228C4DB9001A480F /* Build configuration list for PBXProject "THESISQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B14CBF228C4DB9001A480F;
+			productRefGroup = 70B14CC9228C4DB9001A480F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B14CC7228C4DB9001A480F /* THESISQ */,
+				70B14CDB228C4DBC001A480F /* THESISQTests */,
+				70B14CE6228C4DBC001A480F /* THESISQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B14CC6228C4DB9001A480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C6DF3A2293D9E900F55796 /* admin.storyboard in Resources */,
+				70B14CD6228C4DBC001A480F /* LaunchScreen.storyboard in Resources */,
+				70B14CD3228C4DBC001A480F /* Assets.xcassets in Resources */,
+				70B14CD1228C4DB9001A480F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14CDA228C4DBC001A480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14CE5228C4DBC001A480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B9933968622BC0BC25E5726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THESISQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B18032FF2139B31EA26B5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THESISQTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886F551F4C469BA0C1823143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THESISQ/Pods-THESISQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Canvas/Canvas.framework",
+				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Canvas.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THESISQ/Pods-THESISQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15E682709436D906A333751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THESISQUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B14CC4228C4DB9001A480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F012B22296726400A1CC91 /* MyCell.swift in Sources */,
+				70B14CCE228C4DB9001A480F /* ViewController.swift in Sources */,
+				70B14CCC228C4DB9001A480F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14CD8228C4DBC001A480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B14CE1228C4DBC001A480F /* THESISQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B14CE3228C4DBC001A480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B14CEC228C4DBC001A480F /* THESISQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B14CDE228C4DBC001A480F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B14CC7228C4DB9001A480F /* THESISQ */;
+			targetProxy = 70B14CDD228C4DBC001A480F /* PBXContainerItemProxy */;
+		};
+		70B14CE9228C4DBC001A480F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B14CC7228C4DB9001A480F /* THESISQ */;
+			targetProxy = 70B14CE8228C4DBC001A480F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70B14CCF228C4DB9001A480F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B14CD0228C4DB9001A480F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70B14CD4228C4DBC001A480F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B14CD5228C4DBC001A480F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70B14CEE228C4DBC001A480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70B14CEF228C4DBC001A480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B14CF1228C4DBC001A480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B281FB47C1D2A8F0EAC6B67 /* Pods-THESISQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2A6W9FJX;
+				INFOPLIST_FILE = THESISQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.THESISQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B14CF2228C4DBC001A480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CC0985768003CDACAEFC38 /* Pods-THESISQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2A6W9FJX;
+				INFOPLIST_FILE = THESISQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.THESISQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70B14CF4228C4DBC001A480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277D42815A99021737BAF8CD /* Pods-THESISQTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2A6W9FJX;
+				INFOPLIST_FILE = THESISQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.THESISQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THESISQ.app/THESISQ";
+			};
+			name = Debug;
+		};
+		70B14CF5228C4DBC001A480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9377D1A54B39E4984E66F75 /* Pods-THESISQTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2A6W9FJX;
+				INFOPLIST_FILE = THESISQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.THESISQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THESISQ.app/THESISQ";
+			};
+			name = Release;
+		};
+		70B14CF7228C4DBC001A480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316B6F19AE7C432230677C50 /* Pods-THESISQUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2A6W9FJX;
+				INFOPLIST_FILE = THESISQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.THESISQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THESISQ;
+			};
+			name = Debug;
+		};
+		70B14CF8228C4DBC001A480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2811B877091847CD2C8311B9 /* Pods-THESISQUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2A6W9FJX;
+				INFOPLIST_FILE = THESISQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.THESISQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THESISQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B14CC3228C4DB9001A480F /* Build configuration list for PBXProject "THESISQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14CEE228C4DBC001A480F /* Debug */,
+				70B14CEF228C4DBC001A480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B14CF0228C4DBC001A480F /* Build configuration list for PBXNativeTarget "THESISQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14CF1228C4DBC001A480F /* Debug */,
+				70B14CF2228C4DBC001A480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B14CF3228C4DBC001A480F /* Build configuration list for PBXNativeTarget "THESISQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14CF4228C4DBC001A480F /* Debug */,
+				70B14CF5228C4DBC001A480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B14CF6228C4DBC001A480F /* Build configuration list for PBXNativeTarget "THESISQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B14CF7228C4DBC001A480F /* Debug */,
+				70B14CF8228C4DBC001A480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70B14CC0228C4DB9001A480F /* Project object */;
+}

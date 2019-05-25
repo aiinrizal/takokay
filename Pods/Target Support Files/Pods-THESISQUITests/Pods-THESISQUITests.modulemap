@@ -1,0 +1,6 @@
+framework module Pods_THESISQUITests {
+  umbrella header "Pods-THESISQUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
